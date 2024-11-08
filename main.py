@@ -3,6 +3,11 @@ from ultralytics import YOLO
 from PIL import Image, ImageDraw
 import numpy as np
 import sys
+from pyvirtualdisplay import Display
+
+#　ディスプレイを追加（今回のみ）
+display = Display(visible=0, size=(1024, 768))
+display.start()
 
 # 画像の上端と下端の座標を検出する関数
 def topbottom(img):
