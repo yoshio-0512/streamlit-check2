@@ -1,4 +1,8 @@
+torch
+streamlit
 ultralytics
 Pillow
 numpy
-matplotlib
+emoji
+opencv-python-headless==4.8.0.76
+setuptools
